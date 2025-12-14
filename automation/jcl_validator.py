@@ -15,7 +15,7 @@ def validate_jcl(file_path):
         for e in errors:
             print(f"- {e}")
     else:
-        print("[green]JCL Validation Passed[/green]")
+        print("[green]JCL Validation Passed1[/green]")
 
 if __name__ == "__main__":
     validate_jcl("jcl-templates\sample-job.jcl")
